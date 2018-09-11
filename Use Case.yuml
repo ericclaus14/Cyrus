@@ -1,0 +1,12 @@
+// {type:usecase}
+//// {direction:leftToRight}
+
+[IT Leadership]-(Monitor history and schedules of all backups)
+
+[Backup Admin]-
+[Backup Admin]^[IT Leadership]
+
+[IT Staff]-
+
+[Product Owner]-(See history and schedule of their backups)
+[Product Owner]-(Submit a ticket, via email, to request a restore or to request a change to their backup's schedule)
