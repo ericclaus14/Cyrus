@@ -1,12 +1,19 @@
 // {type:usecase}
-//// {direction:leftToRight}
+// {direction:leftToRight}
 
 [IT Leadership]-(Monitor history and schedules of all backups)
 
-[Backup Admin]-
-[Backup Admin]^[IT Leadership]
+//[IT Staff]^[IT Leadership] (syntax for ^)
 
-[IT Staff]-
+[Backup Admin]-(Must be able to see web pages showing the history and schedules of all backups)
+[Backup Admin]-(Must be able to perform restores of auto restore-enabled backups)
+[Backup Admin]-(Must be able to change schedules of all backups)
+[Backup Admin]-(Should be able to delete backup files)
+[Backup Admin]-(Must be able to create new backups)
+[Backup Admin]-(Must be able to modify existing backups)
+[Backup Admin]-(Must be able to delete existing backups)
 
-[Product Owner]-(See history and schedule of their backups)
-[Product Owner]-(Submit a ticket, via email, to request a restore or to request a change to their backup's schedule)
+[Product Owner]-(Must be able to see a web page showing the history and schedule of their product's backup)
+[Product Owner]-(Should be able to submit a ticket, via email, to request a restore of their product)
+[Product Owner]-(Should be able to submit a ticket, via email, to request a change to their product's backup schedule)
+[Product Owner]-(Could be able to manually run backups of their product up to a predetermined amount of times in a predetermined span of time)
