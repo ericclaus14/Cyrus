@@ -1,24 +1,35 @@
 // {type:usecase}
 // {direction:leftToRight}
-
-[IT Leadership]-(Must be able to see web pages showing the history of all backups)
-[IT Leadership]-(Must be able to see web pages showing all backup schedules)
-
 //[IT Staff]^[IT Leadership] (syntax for ^)
+
+[Backup Admin]-(Must be able to backup virtual machines on Hyper-V hypervisors)
+[Backup Admin]-(Must be able to backup file shares)
+[Backup Admin]-(Must be able to backup group policy objects)
+[Backup Admin]-(Must be able to backup Active Directory)
+[Backup Admin]-(Must be able to backup SSH enabled appliances)
+[Backup Admin]-(Must be able to quickly create scripts and functions, and utilize existing scripts and functions, to backup various other software systems)
+[Backup Admin]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
+[Backup Admin]-(Must be able to see web pages showing all backup schedules)
+[Backup Admin]-(Must be able to change the schedules of all backups via one centralized configuration file)
+[Backup Admin]-(Must be able to automatically delete existing backups if they are older than their specified retention policy)
+[Backup Admin]-(Must be able to modify the scripts and functions of existing backups)
+
+[IT Leadership]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
+[IT Leadership]-(Must be able to see web pages showing all backup schedules)
 
 [Product Owner]-(Must be able to see a web page showing the history their product's backup)
 [Product Owner]-(Must be able to see a web page showing their product's backup schedule)
-[Product Owner]-(Could be able to submit a ticket, via email, to request a restore of their product)
-[Product Owner]-(Could be able to submit a ticket, via email, to request a change to their product's backup schedule)
+
+[Backup Admin]-(Should be able to perform restores of auto restore-enabled backups from the backup solution)
+
+[IT Leadership]-(Should be able to see a record of all recovery tests)
+
+[Product Owner]-(Should be able to receive alerts when my product’s backup is not working)
+
+[Backup Admin]-(Could be able to manually delete backup files from the backup solution)
+[Backup Admin]-(Could be able to backup databases from Microsoft SQL Server and MySQL)
+
+[Product Owner]-(Could be able to send an email via the web page to request a restore of their product’s backup)
+[Product Owner]-(Could be able to send an email via the web page to request a change to my product’s backup schedule)
 [Product Owner]-(Could be able to manually run backups of their product up to a predetermined amount of times in a predetermined span of time)
-
-[Backup Admin]-(Must be able to see web pages showing the history of all backups)
-[Backup Admin]-(Must be able to see web pages showing all backup schedules)
-[Backup Admin]-(Must be able to perform restores of auto restore-enabled backups)
-[Backup Admin]-(Must be able to change the schedules of all backups via one centralized script or configuration file)
-[Backup Admin]-(Should be able to manually delete backup files)
-[Backup Admin]-(Must be able to delete existing backups)
-[Backup Admin]-(Must be able to modify the scripts and functions of existing backups)
-[Backup Admin]-(Must be able to create new scripts and functions for new backups)
-[Backup Admin]-(Must be able to use existing scripts and functions for backups)
-
+[Product Owner]-(Could be able to receive a weekly email with the history of my product’s backup)
