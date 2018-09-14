@@ -14,6 +14,7 @@
 [Backup Admin]-(Must be able to change the schedules of all backups via one centralized configuration file)
 [Backup Admin]-(Must be able to define retention periods for all backups via one centralized configuration file)
 [Backup Admin]-(Must be able to automatically delete existing backups if they are older than their specified retention policy)
+[Backup Admin]-(Must be able to record all backup restore tests in a central location)
 
 [IT Leadership]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
 [IT Leadership]-(Must be able to see a web page showing all backup schedules)
