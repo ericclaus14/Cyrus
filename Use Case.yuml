@@ -8,11 +8,12 @@
 [Backup Admin]-(Must be able to backup Active Directory)
 [Backup Admin]-(Must be able to backup SSH enabled appliances)
 [Backup Admin]-(Must be able to quickly create scripts and functions, and utilize existing scripts and functions, to backup various other software systems)
-[Backup Admin]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
-[Backup Admin]-(Must be able to see web pages showing all backup schedules)
-[Backup Admin]-(Must be able to change the schedules of all backups via one centralized configuration file)
-[Backup Admin]-(Must be able to automatically delete existing backups if they are older than their specified retention policy)
 [Backup Admin]-(Must be able to modify the scripts and functions of existing backups)
+[Backup Admin]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
+[Backup Admin]-(Must be able to see a web page showing all backup schedules)
+[Backup Admin]-(Must be able to change the schedules of all backups via one centralized configuration file)
+[Backup Admin]-(Must be able to define retention periods for all backups via one centralized configuration file)
+[Backup Admin]-(Must be able to automatically delete existing backups if they are older than their specified retention policy)
 
 [IT Leadership]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
 [IT Leadership]-(Must be able to see web pages showing all backup schedules)
@@ -28,6 +29,8 @@
 
 [Backup Admin]-(Could be able to manually delete backup files from the backup solution)
 [Backup Admin]-(Could be able to backup databases from Microsoft SQL Server and MySQL)
+
+[IT Leadership]-(Could be able to receive a weekly email with the history of all backups)
 
 [Product Owner]-(Could be able to send an email via the web page to request a restore of their product’s backup)
 [Product Owner]-(Could be able to send an email via the web page to request a change to my product’s backup schedule)
