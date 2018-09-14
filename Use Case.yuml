@@ -16,7 +16,7 @@
 [Backup Admin]-(Must be able to automatically delete existing backups if they are older than their specified retention policy)
 
 [IT Leadership]-(Must be able to see web pages showing the history of all backups, including file names, creation date and time, last modified date and time and size)
-[IT Leadership]-(Must be able to see web pages showing all backup schedules)
+[IT Leadership]-(Must be able to see a web page showing all backup schedules)
 
 [Product Owner]-(Must be able to see a web page showing the history their product's backup)
 [Product Owner]-(Must be able to see a web page showing their product's backup schedule)
