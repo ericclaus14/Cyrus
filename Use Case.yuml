@@ -8,32 +8,32 @@
 [Backup Admin]-(*Backup Active Directory)
 [Backup Admin]-(*Backup SSH enabled appliances)
 [Backup Admin]-(*Backup various other software systems)
-[Backup Admin]-(*Modify the scripts of existing backups)
-[Backup Admin]-(*See history of backups)
+[Backup Admin]-(*Modify existing backups)
+[Backup Admin]-(*See backup histories)
 [Backup Admin]-(*See backup schedules)
-[Backup Admin]-(*Change the schedules of all backups)
+[Backup Admin]-(*Change all backup schedules)
 [Backup Admin]-(*Define retention periods for all backups)
-[Backup Admin]-(*Automatically cleanup existing backups)
+[Backup Admin]-(*Automatically cleanup backups)
 [Backup Admin]-(*Record all recovery tests)
 
-[IT Leadership]-(*See history of backups)
+[IT Leadership]-(*See backup histories)
 [IT Leadership]-(*See backup schedules)
 
-[Product Owner]-(*See the history of my product's backup)
+[Product Owner]-(*See my product's backup history)
 [Product Owner]-(*See my product's backup schedule)
 
-[Backup Admin]-(~Perform restores of auto restore-enabled backups)
+[Backup Admin]-(~Perform restores)
 
-[IT Leadership]-(~See record of all recovery tests)
+[IT Leadership]-(~See log of recovery tests)
 
-[Product Owner]-(~Receive alerts when my product’s backup is not working)
+[Product Owner]-(~Receive alerts from my product's backup)
 
-[Backup Admin]-(+Manually delete backup files)
-[Backup Admin]-(+Backup databases from Microsoft SQL Server and MySQL)
+[Backup Admin]-(+Delete backup files)
+[Backup Admin]-(+Backup SQL Server and MySQL)
 
-[IT Leadership]-(+Receive a weekly email with the history of all backups)
+[IT Leadership]-(+Receive a weekly log of all backup histories)
 
-[Product Owner]-(+Send an email to request a restore of my product)
-[Product Owner]-(+Send an email to request a change to my product’s backup schedule)
+[Product Owner]-(+Email to request a restore of my product)
+[Product Owner]-(+Email to request a change to my product’s backup schedule)
 [Product Owner]-(+Manually run backups of their product)
-[Product Owner]-(+Receive a weekly email with the history of my product’s backup)
+[Product Owner]-(+Receive a weekly email with my product's backup history)
