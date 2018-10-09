@@ -1,39 +1,37 @@
 // {type:usecase}
 // {direction:leftToRight}
-//[IT Staff]^[IT Leadership] (syntax for ^)
+// {generate:true}
 
-[Backup Admin]-(*Backup Hyper-V virtual machines)
+[Backup Admin]-(*Backup Hyper-V VMs)
 [Backup Admin]-(*Backup file shares)
-[Backup Admin]-(*Backup group policy objects)
-[Backup Admin]-(*Backup Active Directory)
+[Backup Admin]-(*Backup GPOs)
 [Backup Admin]-(*Backup SSH enabled appliances)
-[Backup Admin]-(*Backup various other software systems)
-[Backup Admin]-(*Modify existing backups)
+[Backup Admin]-(*Backup various other software)
+[Backup Admin]-(*Modify backups)
 [Backup Admin]-(*See backup histories)
-[Backup Admin]-(*See backup schedules)
-[Backup Admin]-(*Change all backup schedules)
-[Backup Admin]-(*Define retention periods for all backups)
-[Backup Admin]-(*Automatically cleanup backups)
-[Backup Admin]-(*Record all recovery tests)
+[Backup Admin]-(*Change backup schedules)
+[Backup Admin]-(*Define retention periods)
+[Backup Admin]-(*Auto cleanup backups)
 
 [IT Leadership]-(*See backup histories)
 [IT Leadership]-(*See backup schedules)
 
-[Product Owner]-(*See my product's backup history)
-[Product Owner]-(*See my product's backup schedule)
+[Product Owner]-(*See product's backup history)
+[Product Owner]-(*See product's backup schedule)
 
 [Backup Admin]-(~Perform restores)
 
 [IT Leadership]-(~See log of recovery tests)
 
-[Product Owner]-(~Receive alerts from my product's backup)
+[Product Owner]-(~Get product's backup alerts)
 
 [Backup Admin]-(+Delete backup files)
 [Backup Admin]-(+Backup SQL Server and MySQL)
+[Backup Admin]-(+Record recovery tests)
 
-[IT Leadership]-(+Receive a weekly log of all backup histories)
+[IT Leadership]-(+Get weekly log of backups)
 
-[Product Owner]-(+Email to request a restore of my product)
-[Product Owner]-(+Email to request a change to my product’s backup schedule)
-[Product Owner]-(+Manually run backups of their product)
-[Product Owner]-(+Receive a weekly email with my product's backup history)
+[Product Owner]-(+Email request to restore product)
+[Product Owner]-(+Email request to change product’s backup schedule)
+[Product Owner]-(+Manually backup product)
+[Product Owner]-(+Get weekly log of product's backup)
