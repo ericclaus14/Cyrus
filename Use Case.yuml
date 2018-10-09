@@ -2,22 +2,14 @@
 // {direction:leftToRight}
 // {generate:true}
 
-[Backup Admin]-(*Backup Hyper-V VMs)
-[Backup Admin]-(*Backup file shares)
-[Backup Admin]-(*Backup GPOs)
-[Backup Admin]-(*Backup SSH enabled appliances)
-[Backup Admin]-(*Backup various other software)
-[Backup Admin]-(*Modify backups)
+[Backup Admin]-(*Manage backups)
 [Backup Admin]-(*See backup histories)
-[Backup Admin]-(*Change backup schedules)
-[Backup Admin]-(*Define retention periods)
 [Backup Admin]-(*Auto cleanup backups)
 
 [IT Leadership]-(*See backup histories)
 [IT Leadership]-(*See backup schedules)
 
-[Product Owner]-(*See product's backup history)
-[Product Owner]-(*See product's backup schedule)
+[Product Owner]-(*See product's backup history and schedule)
 
 [Backup Admin]-(~Perform restores)
 
@@ -25,13 +17,11 @@
 
 [Product Owner]-(~Get product's backup alerts)
 
-[Backup Admin]-(+Delete backup files)
-[Backup Admin]-(+Backup SQL Server and MySQL)
+[Backup Admin]-(+Backup SQL Server)
 [Backup Admin]-(+Record recovery tests)
 
 [IT Leadership]-(+Get weekly log of backups)
 
-[Product Owner]-(+Email request to restore product)
-[Product Owner]-(+Email request to change product’s backup schedule)
+[Product Owner]-(+Email request to restore product and to change product's backup schedule)
 [Product Owner]-(+Manually backup product)
 [Product Owner]-(+Get weekly log of product's backup)
