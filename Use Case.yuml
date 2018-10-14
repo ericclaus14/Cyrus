@@ -6,14 +6,11 @@
 [Backup Admin]-(*See backup histories)
 [Backup Admin]-(*Auto cleanup backups)
 
-[IT Leadership]-(*See backup histories)
-[IT Leadership]-(*See backup schedules)
+[IT Leadership]-(*See backup histories/schedules)
 
-[Product Owner]-(*See product's backup history and schedule)
+[Product Owner]-(*See product's backup history/schedule)
 
 [Backup Admin]-(~Perform restores)
-
-[IT Leadership]-(~See log of recovery tests)
 
 [Product Owner]-(~Get product's backup alerts)
 
@@ -21,7 +18,8 @@
 [Backup Admin]-(+Record recovery tests)
 
 [IT Leadership]-(+Get weekly log of backups)
+[IT Leadership]-(~See log of recovery tests)
 
-[Product Owner]-(+Email request to restore product and to change product's backup schedule)
+[Product Owner]-(+Email service requests)
 [Product Owner]-(+Manually backup product)
 [Product Owner]-(+Get weekly log of product's backup)
