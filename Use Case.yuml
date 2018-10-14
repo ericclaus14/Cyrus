@@ -2,13 +2,13 @@
 // {direction:leftToRight}
 // {generate:true}
 
-[Backup Admin]-(!Manage backups)
-[Backup Admin]-(!See backup histories)
-[Backup Admin]-(!Auto cleanup backups)
+[Backup Admin]-(! Manage backups)
+[Backup Admin]-(! See backup histories)
+[Backup Admin]-(! Auto cleanup backups)
 
-[IT Leadership]-(!See backup histories/schedules)
+[IT Leadership]-(! See backup histories/schedules)
 
-[Product Owner]-(!See product's backup history/schedule)
+[Product Owner]-(! See product's backup history/schedule)
 
 [Backup Admin]-(*Perform restores)
 
