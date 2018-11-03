@@ -19,10 +19,10 @@ Tasks broken up into small functions, easily expandable and adaptable to new env
 ### Technologies: 
 **Powershell**
 Functions to:
--Send supplied commands via SSH
--Backup or restore desired VMs
--Backup or restore various other systems
--Possibly modules as well.
+* Send supplied commands via SSH
+* Backup or restore desired VMs
+* Backup or restore various other systems
+* Possibly modules as well.
 **HTML, CSS, and Powershell (and maybe JavaScript)**
 Web dashboard to monitor backups
 **Github**
