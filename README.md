@@ -1,14 +1,14 @@
 # Cyrus
-## Cyrus Business Continuity Solution
+## Cyrus Backup Solution
 
 ### Purpose: 
 Powershell-based Disaster Recovery solution which conducts backups and restores of network appliances and other SSH-enabled systems, virtual machines (using Veeam Backup & Recovery Free Edition), Windows Domain systems (AD, GPO), file shares, and various other software.
 
-###Problems with Existing Solutions:
+### Problems with Existing Solutions:
 Either expensive or they lack essential features
 Not easily customizable, adaptable to new environments
 
-###Goals:
+### Goals:
 **Simple** 
 Modifiable by System Admins with a minimal level of programming experience by utilizing Powershell and detailed documentation
 **Unified** 
@@ -16,7 +16,7 @@ All backups and recoveries happen from one central system
 **Modular**
 Tasks broken up into small functions, easily expandable and adaptable to new environments
 
-###Technologies: 
+### Technologies: 
 **Powershell**
 Functions to:
 -Send supplied commands via SSH
