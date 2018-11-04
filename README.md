@@ -11,8 +11,10 @@ Not easily customizable, adaptable to new environments
 ### Goals:
 **Simple** 
 * Modifiable by System Admins with a minimal level of programming experience by utilizing Powershell and detailed documentation
+
 **Unified** 
 * All backups and recoveries happen from one central system
+
 **Modular**
 * Tasks broken up into small functions, easily expandable and adaptable to new environments
 
@@ -23,10 +25,13 @@ Functions to:
 * Backup or restore desired VMs
 * Backup or restore various other systems
 * Possibly modules as well.
+
 **HTML, CSS, and Powershell (and maybe JavaScript)**
 Web dashboard to monitor backups
+
 **Github**
 Source control and documentation
+
 **Windows Server 2016**
 OS to run the DR solution on
 
