@@ -10,11 +10,11 @@ Not easily customizable, adaptable to new environments
 
 ### Goals:
 **Simple** 
-Modifiable by System Admins with a minimal level of programming experience by utilizing Powershell and detailed documentation
+* Modifiable by System Admins with a minimal level of programming experience by utilizing Powershell and detailed documentation
 **Unified** 
-All backups and recoveries happen from one central system
+* All backups and recoveries happen from one central system
 **Modular**
-Tasks broken up into small functions, easily expandable and adaptable to new environments
+* Tasks broken up into small functions, easily expandable and adaptable to new environments
 
 ### Technologies: 
 **Powershell**
