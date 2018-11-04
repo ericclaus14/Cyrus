@@ -2,24 +2,24 @@
 // {direction:leftToRight}
 // {generate:true}
 
-[Backup Admin]-(! Manage backups)
-[Backup Admin]-(! See backup histories)
-[Backup Admin]-(! Auto cleanup backups)
+[Backup Admin]-(Manage backups{bg:#8FBC8F})
+[Backup Admin]-(See backup histories{bg:#8FBC8F})
+[Backup Admin]-(Auto cleanup backups{bg:#8FBC8F})
 
-[IT Leadership]-(! See backup histories/schedules)
+[IT Leadership]-(See backup histories/schedules{bg:#8FBC8F})
 
-[Product Owner]-(! See product's backup history/schedule)
+[Product Owner]-(See product's backup history/schedule{bg:#8FBC8F})
 
-[Backup Admin]-(*Perform restores)
+[Backup Admin]-(Perform restores{bg:#F4A460})
 
-[Product Owner]-(*Get product's backup alerts)
+[Product Owner]-(Get product's backup alerts{bg:#F4A460})
 
-[Backup Admin]-(+Backup SQL Server)
-[Backup Admin]-(+Record recovery tests)
+[Backup Admin]-(Backup SQL Server{bg:#ADD8E6})
+[Backup Admin]-(Record recovery tests{bg:#ADD8E6})
 
-[IT Leadership]-(+Get weekly log of backups)
-[IT Leadership]-(+See log of recovery tests)
+[IT Leadership]-(Get weekly log of backups{bg:#ADD8E6})
+[IT Leadership]-(See log of recovery tests{bg:#ADD8E6})
 
-[Product Owner]-(+Email service requests)
-[Product Owner]-(+Manually backup product)
-[Product Owner]-(+Get weekly log of product's backup)
+[Product Owner]-(Email service requests{bg:#ADD8E6})
+[Product Owner]-(Manually backup product{bg:#ADD8E6})
+[Product Owner]-(Get weekly log of product's backup{bg:#ADD8E6})
