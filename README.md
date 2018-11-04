@@ -27,11 +27,11 @@ Functions to:
 * Possibly modules as well.
 
 **HTML, CSS, and Powershell (and maybe JavaScript)**
-Web dashboard to monitor backups
+* Web dashboard to monitor backups
 
 **Github**
-Source control and documentation
+* Source control and documentation
 
 **Windows Server 2016**
-OS to run the DR solution on
+* OS to run the DR solution on
 
